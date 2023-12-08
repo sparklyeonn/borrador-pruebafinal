@@ -1,0 +1,38 @@
+.containerItemCount{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border: 1px solid #D7C0D0;
+    border-radius: 0.8rem;
+    width: 10rem;
+}
+.containerContador h4{
+    font-size: 2rem;
+}
+
+.containerContador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itemCount {
+    font-size: 2rem;
+    border: none;
+    margin: 0 0.3rem;
+    background-color: #fff;
+    color: #D7C0D0;
+}
+
+.containerContador .btn{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 678px){
+
+    .containerContador{
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,129 @@
+.container-item-detail{
+    margin: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-item-detail img{
+    width: 90%;
+}
+
+.container-item-detail h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+.container-item-detail p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.price-detail{
+    font-weight: bold;
+}
+
+.button-item-detail{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem 0 2rem 0;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    height: 5rem;
+    width: 15rem;
+    background-color: #D7C0D0;
+    border-color: #D7C0D0;
+    color: #ffff;
+    border-style: solid;
+
+}
+.icon-item-detail {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #D7C0D0;
+    border: 1px solid #D7C0D0;
+    margin-top: 1rem;
+}
+
+.icon-item-detail:hover{
+    background-color: #D7C0D0;
+    color: #fff;
+    transition: 1s;
+}
+.button-item-detail:hover{
+    background-color: #fff;
+    color: #D7C0D0;
+    transition: 1s;
+}
+.buttons-item-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 678px){
+    .container-item-detail{
+        margin: 5rem 2rem;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .container-item-detail img{
+        width: 40%;
+    }
+    .container-item-detail button{
+        align-items: flex-start;
+    }
+    .button-item-detail{
+        margin: 2rem 2rem 2rem 0;
+    }
+    .info-item-details{
+        border-left: 1px solid #D7C0D0;
+        padding-left: 1rem;
+    }
+
+    .container-item-detail p{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .buttons-item-detail{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+    }
+    .container-item-detail img:hover{
+        transform: scale(1.04);
+        transition: transform .5s ease
+    }
+
+}
+.wishList-msj{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.wishList-msj p{
+font-size: 1.2rem;
+margin-top: 2rem;
+
+}
+.wishList-msj button{
+    width: fit-content;
+    margin: 0;
+}
+
+@media (min-width: 678px){
+    .wishList-msj{
+        display: flex;
+        flex-direction: row;
+    }
+    .wishList-msj button{
+        margin-left: 1rem;
+    }
+}

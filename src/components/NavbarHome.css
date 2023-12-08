@@ -1,0 +1,146 @@
+.NavbarItems{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.btn-carrito{
+  justify-content: flex-end;
+
+}
+
+.navbar-logo{
+    justify-self: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+
+.nav-menu {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      align-items: flex-start;
+      align-content: center;
+      margin-right: 2rem;
+      padding: 1rem 2rem;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+}
+.nav-menu li{
+    margin: 2rem 0;
+}
+
+  nav{
+    background-color: #F7C7DB;
+
+
+  }
+
+  .nav-links{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color:  #0d181a;
+    text-decoration: none;
+  }
+
+  .nav-links:hover {
+      color:#fff;
+      transition: 0.5s;
+  }
+
+  .fa-bars{
+      color:#fff;
+      font-size: 3rem;
+      padding-top: 0.5rem;
+  }
+
+  nav .logo-container img{
+    width: 10rem;
+  }
+
+  .nav-menu.active{
+    background: #C86FC9;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 200;
+    width: 35%;
+    height: 85vh;
+    }
+
+  .menu-icon{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    transform: translate(-100%, 60%);
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .fa-times{
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1.1rem;
+  }
+
+  .NavbarItems p{
+    padding-left: 6rem;
+    padding-top: 0.3rem;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+  }
+
+  .icon-navbar button{
+    margin-right: 1.2rem ;
+    
+  }
+nav .nav-suscribe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  margin-right: 1rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+nav .nav-suscribe h3{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+.nav-suscribe i{
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+.nav-suscribe:hover{
+  color: #0d181a;
+  transition: 1s;
+}
+.NavbarItems button {
+background-color: transparent;
+border: none;
+font-size: 3rem;
+color: #fff;
+font-family: 'Bebas Neue', cursive;
+margin-bottom: 3rem;
+transition: 1s;
+}
+
+.NavbarItems button:hover {
+  color: black;
+  transition: 1s;
+}
